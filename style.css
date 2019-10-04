@@ -1,5 +1,5 @@
-<style>
-div.gallery {
+
+/*div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
@@ -18,5 +18,14 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-}
-</style>
+}*/
+
+
+
+h1,h2 {
+    padding: 60px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 50px;
+  }
