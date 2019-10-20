@@ -13,6 +13,8 @@ app.use(views(`${__dirname}/html`, { extension: 'html' }, {map: { handlebars: 'h
 router.get('/', async ctx => await ctx.render('galleryInterface'))
 router.get('/test', async ctx => await ctx.render('test'))
 router.get('/about', async ctx => await ctx.render('about'))
+router.get('/register', async ctx => await ctx.render('register'))
+router.get('/login', async ctx => await ctx.render('login'))
 
 app.use(router.routes())
 module.exports = app.listen(port, () => console.log(`listening on port ${port}`))
